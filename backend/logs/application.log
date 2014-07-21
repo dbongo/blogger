@@ -1,0 +1,59 @@
+2014-07-21 09:17:46,917 - [INFO] - from play in pool-4-thread-6 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2014-07-21 09:18:21,602 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2014-07-21 09:18:21,611 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'evant'! Servers:
+		[localhost]
+
+2014-07-21 09:18:21,822 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-21 09:19:28,946 - [INFO] - from play in play-akka.actor.default-dispatcher-5 
+Starting application default Akka system.
+
+2014-07-21 09:38:24,277 - [INFO] - from application in pool-1-thread-1 
+ReactiveMongoPlugin starting...
+
+2014-07-21 09:38:24,382 - [INFO] - from application in pool-1-thread-1 
+ReactiveMongoPlugin successfully started with db 'test'! Servers:
+		[127.0.0.1:12345]
+
+2014-07-21 09:38:24,756 - [WARN] - from application in pool-1-thread-1 
+Login(4DD55wxYEb4qsWBDkhtfpxHdF126eOBgtT54Sr8Enbd5jeqT1MlByiPvEJhLhSZp,event1)
+
+2014-07-21 09:38:24,756 - [WARN] - from application in pool-1-thread-1 
+Login(j4zO4mRoZ7sU6tXoTngpASvxv0MjWHHWXUQwDfRAM7PjxgtSoOTLgntXRRe7h0qH,event1)
+
+2014-07-21 09:38:26,036 - [WARN] - from application in pool-1-thread-1 
+pong
+
+2014-07-21 09:38:26,408 - [INFO] - from play in play-akka.actor.default-dispatcher-4 
+Starting application default Akka system.
+
+2014-07-21 09:38:27,389 - [WARN] - from application in pool-1-thread-1 
+NingWSResponse(com.ning.http.client.providers.netty.NettyResponse@2be9386a)
+
+2014-07-21 09:38:27,410 - [WARN] - from application in pool-1-thread-1 
+NingWSResponse(com.ning.http.client.providers.netty.NettyResponse@7b13b987)
+
+2014-07-21 09:38:27,474 - [WARN] - from application in pool-1-thread-1 
+[{"_id":{"$oid":"53cd25e3729b8ebf4ab37410"},"uid":"4DD55wxYEb4qsWBDkhtfpxHdF126eOBgtT54Sr8Enbd5jeqT1MlByiPvEJhLhSZp","eventId":"event1","auth_token":"53cd25e22c00002c005e0de3"},{"_id":{"$oid":"53cd25e3729b8ebf4ab37411"},"uid":"j4zO4mRoZ7sU6tXoTngpASvxv0MjWHHWXUQwDfRAM7PjxgtSoOTLgntXRRe7h0qH","eventId":"event1","auth_token":"53cd25e32c00002b005e0de4"}]
+
+2014-07-21 09:38:27,499 - [WARN] - from application in pool-1-thread-1 
+{"_id":{"$oid":"53cd25e3729b8ebf4ab37410"},"uid":"4DD55wxYEb4qsWBDkhtfpxHdF126eOBgtT54Sr8Enbd5jeqT1MlByiPvEJhLhSZp","eventId":"event1","auth_token":"53cd25e22c00002c005e0de3"}
+
+2014-07-21 09:38:27,505 - [WARN] - from application in pool-1-thread-1 
+{"_id":{"$oid":"53cd25e3729b8ebf4ab37411"},"uid":"j4zO4mRoZ7sU6tXoTngpASvxv0MjWHHWXUQwDfRAM7PjxgtSoOTLgntXRRe7h0qH","eventId":"event1","auth_token":"53cd25e32c00002b005e0de4"}
+
+2014-07-21 09:38:27,515 - [INFO] - from play in pool-1-thread-1 
+Shutdown application default Akka system.
+
+2014-07-21 09:38:27,657 - [INFO] - from application in pool-1-thread-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2014-07-21 09:38:27,658 - [INFO] - from application in ForkJoinPool-1-worker-1 
+ReactiveMongo Connections stopped. [Failure(akka.pattern.AskTimeoutException: Recipient[Actor[akka://application/user/$b#1843711281]] had already been terminated.)]
+
